@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/meeqvse/static/css/main.05247d82.chunk.css",
+    "main.js": "/meeqvse/static/js/main.d7e26a45.chunk.js",
+    "main.js.map": "/meeqvse/static/js/main.d7e26a45.chunk.js.map",
+    "runtime-main.js": "/meeqvse/static/js/runtime-main.0c3d5ef4.js",
+    "runtime-main.js.map": "/meeqvse/static/js/runtime-main.0c3d5ef4.js.map",
+    "static/js/2.50fb188b.chunk.js": "/meeqvse/static/js/2.50fb188b.chunk.js",
+    "static/js/2.50fb188b.chunk.js.map": "/meeqvse/static/js/2.50fb188b.chunk.js.map",
+    "static/js/3.ff21c52f.chunk.js": "/meeqvse/static/js/3.ff21c52f.chunk.js",
+    "static/js/3.ff21c52f.chunk.js.map": "/meeqvse/static/js/3.ff21c52f.chunk.js.map",
+    "index.html": "/meeqvse/index.html",
+    "static/css/main.05247d82.chunk.css.map": "/meeqvse/static/css/main.05247d82.chunk.css.map",
+    "static/js/2.50fb188b.chunk.js.LICENSE.txt": "/meeqvse/static/js/2.50fb188b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c3d5ef4.js",
+    "static/js/2.50fb188b.chunk.js",
+    "static/css/main.05247d82.chunk.css",
+    "static/js/main.d7e26a45.chunk.js"
+  ]
+}
