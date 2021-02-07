@@ -5,6 +5,7 @@ import AllProducts from './components/allProducts'
 import FoundProduct from './components/searchProduct'
 import SignIn from './components/sighnIn'
 import Profile from './components/profile'
+import useAuth from './hooks/useAuth'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,12 +16,14 @@ import Navbar from './components/navbar';
 import UserContext from "./UserContext";
 const token = localStorage.getItem('token');
 
+
+
 function App() {
+  
   const [currentUser, setCurrentUser] = useState({token});
   console.log("token " + token)
   
   return (
-    
     <Router>
       <UserContext.Provider value={{currentUser, setCurrentUser}}>
     <div>
@@ -40,7 +43,8 @@ function App() {
            <SignIn/>
          </Route>
          <Route path="/profile">
-           <Profile/>
+           {token ? <Profile/> : <HomePage /> }
+           
          </Route>
         <Route path="/:page?">
             <HomePage />

@@ -38,8 +38,15 @@ const useStyles = makeStyles({
                 })
         },[foundProducts])
     console.log(param)
+    if(foundProducts.length === 0){
       return(
+        <div>Product not found</div>
+      )
+    }  
+    
+    return(
         <div>
+          
         {foundProducts.map(item =><div key={item.id} className="sacdeli"><Card className={classes.root}>
     <CardActionArea>
       <CardMedia
